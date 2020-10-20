@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+.header{
+	width: 100%;
+}
+
+.navbar{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0;
+	padding-top: 0;
+}
+
+.navbar__item{
+	list-style: none;
+}
+
+.navbar__link{
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: #000;
+	padding-left: 1rem;
+	margin-right: 2rem;
+	color: #212121;
+}
+
+.perfil__image{
+	width: 3.5rem;
+	height: 3.5rem;
+	margin-right: 1rem;
+	border-radius: 90%;
+}
+
+
+.cuadricula{
+	display: flex;
+	flex-wrap: wrap;
+	width: 4rem;
+	height: 1rem;
+	position: relative;
+	top: -1.5rem;
+	right:0.5rem;
+}
+
+.cuadricula__hijo{
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #737373;
+	margin: 0.3rem;
+}
