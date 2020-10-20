@@ -147,4 +147,52 @@ svg{
 	line-height: 1;
 }
 
+/*Estilos al FOOTER*/
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	background-color: #f4f4f4;
+	width: 100%;
+	font-size: 1.6rem;
+	color: #6F6F6F;
+
+}
+
+.pais{
+	border: 1px solid #c6c6c6;
+	width: 100%;
+	padding: 1rem;
+}
+
+.service {
+	border: 1px solid #c6c6c6;
+	width: 100%;
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.list-service{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.list-service-item{
+	list-style: none;
+}
+
+.list-service-link{
+	text-decoration: none;
+	display: block;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	color: #6F6F6F;
+}
 
