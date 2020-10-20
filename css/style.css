@@ -108,10 +108,9 @@ input[type="text"]{
 	font-size: 1.6rem;
 }
 
-/*.botones{
-	width: 80%;
-	margin: 0 auto;
-}*/
+.botones{
+	text-align: center;
+}
 
 input[type="submit"]{
 	margin-right: 0.8rem; 
@@ -123,9 +122,9 @@ input[type="submit"]{
 	border-radius: 5px;
 	margin-bottom: 3rem;
 	outline: none;
-	display: block;
 	margin: 0 auto;
 	margin-bottom: 2rem;
+	t
 }
 
 input[type="submit"]:hover{

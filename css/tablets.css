@@ -1,0 +1,37 @@
+
+.navbar__link{
+	font-size: 2rem;
+}
+
+.section{
+	width: 60%;
+}
+
+
+
+input[type="submit"]{
+	padding: 1.2rem;
+	font-size: 1.6rem;
+	display: inline;
+	margin: 0 auto;
+	margin-right: 2rem;
+	margin-bottom: 4rem; 
+	margin-top: 2rem;
+
+}
+
+.ofrece{
+	font-size: 1.4rem;
+}
+
+.ofrece a{
+	font-size: 1.4rem;
+}
+
+.list-service{
+	justify-content: center;
+}
+
+.list{
+	justify-content: center;
+}

@@ -1,0 +1,11 @@
+
+.section{
+	margin-top: 8%;
+	width: 45%;
+}
+
+.service{
+	display: flex;
+	justify-content: space-between;
+}
+
