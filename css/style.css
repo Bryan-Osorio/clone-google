@@ -1,3 +1,4 @@
+/*Estilos GENERALES*/
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -7,6 +8,12 @@
 html{
 	font-size: 62.5%;
 }
+
+body{
+	height: 100vh;
+}
+
+/*Estilos al HEADER*/
 
 .header{
 	width: 100%;
@@ -57,3 +64,87 @@ html{
 	background-color: #737373;
 	margin: 0.3rem;
 }
+
+/*Estilos al MAIN*/
+
+.main{
+	width: 100%;
+}
+
+.section{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin-top: 25%;
+}
+
+.logo__google, .ofrece{
+	align-self: center;
+}
+
+.search{
+	width: 100%;
+	border: 1px solid #DFE1E5;
+	padding: 0.5rem;
+	border-radius: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	align-items: center;
+}
+
+.form{
+	width: 100%;
+}
+
+input[type="text"]{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0.5rem;
+	border: none;
+	outline: none;
+	font-size: 1.6rem;
+}
+
+/*.botones{
+	width: 80%;
+	margin: 0 auto;
+}*/
+
+input[type="submit"]{
+	margin-right: 0.8rem; 
+	margin-left: 0.8rem;
+	padding: 1rem;
+	background-color: #F4F4F4;
+	border: 1px solid transparent;
+	color: #5F6368;
+	border-radius: 5px;
+	margin-bottom: 3rem;
+	outline: none;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+input[type="submit"]:hover{
+	border: 1px solid #C6C6C6;
+}
+
+.ofrece{
+	font-size: 1.2rem;
+}
+
+.ofrece a{
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+svg{
+	width: 3rem;
+	display: inline;
+	line-height: 1;
+}
+
+
